@@ -1,0 +1,59 @@
+.titulo{
+    padding-left: 40%;
+    font-size: 50px;
+}
+
+.juegosnuevostitulo{
+    padding: 20px;
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido */
+    padding: 0 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-links a:hover {
+    color: #f0f0f0; /* Color al pasar el ratón */
+  }
+  
+  .main{
+    background-color: burlywood;
+  }
+  
+  .img{
+    max-width: 20%;
+  }
