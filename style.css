@@ -3,7 +3,7 @@
     font-size: 50px;
 }
 
-.juegosnuevostitulo{
+.sectiontitulo{
     padding: 20px;
 }
 
@@ -55,5 +55,18 @@
   }
   
   .img{
-    max-width: 20%;
+    max-width: 40%;
+  }
+
+  .articles-container {
+    display: flex; /* Hace que los artículos se alineen uno al lado del otro */
+    gap: 20px; /* Espaciado entre los artículos */
+  }
+  
+  .article {
+    flex-basis: 30%; /* Define un ancho fijo para cada artículo */
+    max-width: 30%; /* Limita el tamaño máximo de cada artículo */
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Asegura que padding y borde se incluyan en el tamaño total del artículo */
   }
