@@ -64,9 +64,32 @@
   }
   
   .article {
-    flex-basis: 30%; /* Define un ancho fijo para cada artículo */
-    max-width: 30%; /* Limita el tamaño máximo de cada artículo */
-    padding: 10px;
+    display: flex; /* Hace que la imagen y la descripción estén alineadas en una fila */
+    align-items: flex-start; /* Alinea la descripción al inicio, junto a la imagen */
+    gap: 20px; /* Espacio entre la imagen y la descripción */
     border: 1px solid #ddd;
-    box-sizing: border-box; /* Asegura que padding y borde se incluyan en el tamaño total del artículo */
+    padding: 10px;
+  }
+  .article-image-container {
+    display: flex;
+    flex-direction: column; /* Coloca el título encima de la imagen */
+    align-items: center; /* Centra el título y la imagen horizontalmente */
+  }
+
+
+  .article-title {
+    text-align: center;
+    margin-bottom: 10px; /* Espaciado entre el título y la imagen */
+  }
+  
+
+  .article-description {
+    flex: 1; /* La descripción ocupa el espacio restante a la derecha */
+    max-width: 200px; /* Limita el ancho máximo de la descripción */
+    align-self: flex-start; /* Alinea la descripción en la parte superior */
+    text-align: justify; /* Justifica el texto para una mejor apariencia */
+  }
+  .article-image {
+    width: 350px; /* Define un ancho fijo para la imagen */
+    height: auto; /* Mantiene las proporciones de la imagen */
   }
